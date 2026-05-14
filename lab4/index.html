@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна - ОП Германські мови</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Германські мови та літератури (переклад включно), перша - англійська</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="competencies.html">Компетентності</a></li>
+                <li><a href="components.html">Компоненти</a></li>
+                <li><a href="graph.html">Схема</a></li>
+                <li><a href="group.html">Робоча група</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Загальна інформація</h2>
+            <p><b>Рівень вищої освіти:</b> другого рівня вищої освіти</p>
+            <p><b>Галузь знань:</b> 02 «Культура, мистецтво та гуманітарні науки»</p>
+            <p><b>Спеціальність:</b> 035 «Філологія»</p>
+        </section>
+
+        <section id="meta">
+            <h2>Мета освітньої програми</h2>
+            <p>Шляхом формування у здобувачів вищої освіти інтегральної, загальних та фахових компетентностей забезпечити підготовку висококваліфікованих і конкурентоспроможних фахівців, які здатні розв'язувати складні спеціалізовані завдання та практичні проблеми в галузі філології (англійської та німецької), перекладу (зокрема галузевого) і викладання іноземних мов.</p>
+        </section>
+
+        <section class="open-day-form">
+            <h2>Реєстрація на Open Day</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="email">Ваш Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="guests">Кількість гостей:</label>
+                    <input type="number" id="guests" name="guests" min="1" required value="1">
+                </div>
+
+                <div class="form-group">
+                    <label>Формат участі:</label>
+                    <input type="radio" id="online" name="format" value="online" checked>
+                    <label for="online" style="display:inline">Онлайн</label>
+                    <input type="radio" id="offline" name="format" value="offline">
+                    <label for="offline" style="display:inline">Офлайн</label>
+                </div>
+
+                <button type="submit" style="padding: 10px 20px; cursor: pointer;">Зареєструватися</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Білас Миколай © ІФНТУНГ, 2026 р.</p>
+    </footer>
+</body>
+</html>
